@@ -50,6 +50,32 @@ void lietKeSnt(int &n)
 		if(t==n)	break;
 	}
 }
+int xuLi7(int n)
+{
+	int min=9,count=0; 
+	while (n!=0)
+	{
+		if ((n%10)<=min)
+		{
+			min=n%10;
+			if ((n%10)==min)
+				count++;
+				else count=0; 
+		}
+		n/=10;	 
+	} 
+	return count; 
+} 
+bool xuLi8(int n)
+{
+	while (n!=0)
+	{
+		if ((n%10)%2!=0) 
+			return false;
+		n/=10;
+	}
+	return true; 
+} 
 int main()
 {
 	int n,k;
@@ -61,6 +87,14 @@ int main()
 	cout<<"\nBai 4- ";
 	TongChuSoChan(n);
 	//vuong ....................................
+	cout<<"Nhap n (n>0)_(bai 7): ";
+	cin>>n;
+	cout<<"So luong chu so nho nhat cua n la: "<<xuLi7(n)<<endl;
+	cout<<"Nhap n (n>0)_(bai 8): ";
+	cin>>n;
+	if (xuLi8(n)==true)
+		cout<<"n toan la chu so chan"<<endl;
+	else cout<<"n co chu so le"<<endl; 
 	cout<<"\nBai 9: Cac SNT Tu 2 den N la: ";
 	for(int i=0;i<n;++i)
 	{
@@ -72,3 +106,4 @@ int main()
 	//..........................................
 	return 0;
 }
+
