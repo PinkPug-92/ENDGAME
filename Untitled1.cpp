@@ -87,6 +87,7 @@ int main()
 	cout<<"\nBai 4- ";
 	TongChuSoChan(n);
 	//vuong ....................................
+	//Hoat---------------------- 
 	cout<<"Nhap n (n>0)_(bai 7): ";
 	cin>>n;
 	cout<<"So luong chu so nho nhat cua n la: "<<xuLi7(n)<<endl;
@@ -95,6 +96,7 @@ int main()
 	if (xuLi8(n)==true)
 		cout<<"n toan la chu so chan"<<endl;
 	else cout<<"n co chu so le"<<endl; 
+	//--------------------
 	cout<<"\nBai 9: Cac SNT Tu 2 den N la: ";
 	for(int i=0;i<n;++i)
 	{
