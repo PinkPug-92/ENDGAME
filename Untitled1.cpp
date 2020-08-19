@@ -1,4 +1,5 @@
 #include<iostream>
+#include<math.h>
 using namespace std;
 void DemChuSoCuaN(int n)
 {
@@ -21,14 +22,53 @@ void TongChuSoChan(int n)
 	}
 	cout<<"Tong cac chu so cua "<<k<<" la: "<<s;
 }
+int kTNguyenTo(int n)
+{
+	if(n<2)
+		return 0;
+	else 
+	{
+		for (int i=2;i<=sqrt(n);++i)
+		{
+			if(n%i==0)
+				return 0;
+		}
+		
+	}
+	return 1;
+}
+void lietKeSnt(int &n)
+{
+	int t=0;
+	for(int i=0;i<n*10;++i)
+	{
+		if(kTNguyenTo(i)==1)
+		{
+			cout<<i<<" ";
+			t++;
+		}
+		if(t==n)	break;
+	}
+}
 int main()
 {
 	int n,k;
 	cout<<"Nhap N: ";
 	cin>>n;
+	//Trung ....................................
 	cout<<"Bai 3- ";
 	DemChuSoCuaN(n);
 	cout<<"\nBai 4- ";
 	TongChuSoChan(n);
+	//vuong ....................................
+	cout<<"\nBai 9: Cac SNT Tu 2 den N la: ";
+	for(int i=0;i<n;++i)
+	{
+		if(kTNguyenTo(i)==1)
+			cout<<i<<" ";
+	}
+	cout<<"\nBai 10: N SNT dau tien la: ";
+	lietKeSnt(n);
+	//..........................................
 	return 0;
 }
