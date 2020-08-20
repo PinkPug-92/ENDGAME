@@ -15,5 +15,6 @@ int main()
 	}
 	cout<<"So luong chu so cua "<<h<<" la :"<<dem;
 	cout << "\nKha dang test chuc nang tren visual studio code 2019" << endl;
+	cout << "\nKha da test xong." << endl;
 	return 0;
 }
