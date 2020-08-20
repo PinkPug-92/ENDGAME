@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 int main()
 {
 	int n , h ;
@@ -13,5 +14,6 @@ int main()
 		dem++;
 	}
 	cout<<"So luong chu so cua "<<h<<" la :"<<dem;
+	cout << "\nKha dang test chuc nang tren visual studio code 2019" << endl;
 	return 0;
 }
