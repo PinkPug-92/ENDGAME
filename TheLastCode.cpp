@@ -119,6 +119,7 @@ int main()
 	cout<<"Nhap N: ";
 	cin>>n;
 	// bai 1, 2 cua Toan gia la nam rieng ben kia nha ae oi 
+	cout << "Toan dep trai" << endl;
 	//Trung ....................................
 	cout<<"Bai 3- ";
 	DemChuSoCuaN(n);
