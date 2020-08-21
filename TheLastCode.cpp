@@ -144,7 +144,7 @@ int main()
 	cin >> n;
 	// Toan **********************************
 	cout << "\nBai 1 - So luong chu so cua " << n << " la:" << bai1(n) << endl;
-	cout << "bai 2 - Tong cac so cua " << n << " la: " << bai2(n) << endl;
+	cout << "Bai 2 - Tong cac so cua " << n << " la: " << bai2(n) << endl;
 	//Trung ....................................
 	cout << "Bai 3- ";
 	DemChuSoCuaN(n);
