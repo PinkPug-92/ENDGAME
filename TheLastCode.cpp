@@ -160,7 +160,7 @@ int main()
 	else
 		cout << "Bai 8 - n co chu so le" << endl;
 
-	//vuong ..................................
+	//Vuong ....................................
 	cout << "Bai 9: Cac SNT Tu 2 den N la: ";
 	for (int i = 0; i < n; ++i)
 	{
