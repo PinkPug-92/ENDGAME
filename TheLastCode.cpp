@@ -170,6 +170,7 @@ int main()
 	cout << "\nBai 10: N SNT dau tien la: ";
 	lietKeSnt(n);
 	cout << "\nHoat dep trai nhat hanh tinh" << endl;
+	cout << "Trung dep trai hon Hoat" << endl;
 	//..........................................
 	return 0;
 }
