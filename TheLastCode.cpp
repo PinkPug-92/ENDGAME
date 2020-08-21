@@ -150,7 +150,7 @@ int main()
 	DemChuSoCuaN(n);
 	cout << "\nBai 4- ";
 	TongChuSoChan(n);
-
+	cout << "\nTrung pro comming soon!" << endl;
 	//Kha dep trai ----------
 	cout << "\nBai 5 - Chu so dau tien cua " << n << " la: " << timChuSoFirst(n) << endl;
 	cout << "Bai 6 - Chu so nho nhat cua " << n << " la: " << timChuSoNhoNhat(n) << endl;
