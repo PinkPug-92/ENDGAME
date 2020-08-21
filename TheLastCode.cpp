@@ -161,7 +161,7 @@ int main()
 	else
 		cout << "Bai 8 - n co chu so le" << endl;
 
-	//vuong ....................................
+	//Vuong ....................................
 	cout << "Bai 9: Cac SNT Tu 2 den N la: ";
 	for (int i = 0; i < n; ++i)
 	{
@@ -171,7 +171,7 @@ int main()
 	cout << "\nBai 10: N SNT dau tien la: ";
 	lietKeSnt(n);
 	cout << "\nNhu vay la train github da thanh cong mi mang" << endl;
-	cout << "Bay gio co duoc khong, hicccc" << endl;
+	cout << "Bay gio co duoc khong, Hinh nhu la duoc roi" << endl;
 	//..........................................
 	return 0;
 }
