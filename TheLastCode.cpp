@@ -169,10 +169,7 @@ int main()
 	}
 	cout << "\nBai 10: N SNT dau tien la: ";
 	lietKeSnt(n);
-	cout << "\nNhu vay la train github da thanh cong mi mang" << endl;
-	cout << "Dang test lai phat nua ne anh em oi!" << endl;
-	cout << "Bay gio moi biet ne phai khong" << endl;
-	cout << "Bay gio co duoc khong, hicccc" << endl;
+	cout << "\nHoat dep trai nhat" << endl;
 	//..........................................
 	return 0;
 }
