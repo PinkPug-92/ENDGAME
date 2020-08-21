@@ -1,6 +1,5 @@
 #include <iostream>
 #include <math.h>
-#include <string> // Kha moi them vao dong nay ne ae!
 using namespace std;
 
 // ham: funtion -> chuc nang: lam nhiem vu cua cai ten ham. Chi co chuc nang xi li phan ruot.
