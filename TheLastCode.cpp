@@ -171,7 +171,7 @@ int main()
 	lietKeSnt(n);
 	cout << "\nNhu vay la train github da thanh cong mi mang" << endl;
 	cout << "Dang test lai phat nua ne anh em oi!" << endl;
-	cout << "Bi loi ki thuat roi anh em oi" << endl;
+	cout << "Bay gio moi biet ne phai khong" << endl;
 	//..........................................
 	return 0;
 }
