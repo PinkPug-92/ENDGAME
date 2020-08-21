@@ -172,6 +172,7 @@ int main()
 	cout << "\nNhu vay la train github da thanh cong mi mang" << endl;
 	cout << "Dang test lai phat nua ne anh em oi!" << endl;
 	cout << "Bay gio moi biet ne phai khong" << endl;
+	cout << "Bay gio co duoc khong, hicccc" << endl;
 	//..........................................
 	return 0;
 }
