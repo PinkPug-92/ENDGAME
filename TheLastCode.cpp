@@ -171,6 +171,7 @@ int main()
 	cout << "\nBai 10: N SNT dau tien la: ";
 	lietKeSnt(n);
 	cout << "\nNhu vay la train github da thanh cong mi mang" << endl;
+	cout << "Bay gio co duoc khong, hicccc" << endl;
 	//..........................................
 	return 0;
 }
